@@ -16,7 +16,7 @@ class Event extends Component {
         super( props );
         this.state = {
             event: this.props.event,
-            expanded: PropTypes.number.isRequired,
+            expanded: this.props.expanded,
         };
     };
 
